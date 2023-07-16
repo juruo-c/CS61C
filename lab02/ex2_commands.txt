@@ -3,3 +3,23 @@
 # Lines starting with # are comments, feel free to add any to document your commands
 
 # Please add your commands below this line
+1. start
+2. n
+n
+3. n
+n
+n
+4. s
+5. s
+s
+s
+6. p password
+7. fin
+8. s
+s 
+s 
+9. n
+n
+10. p meets_len_req
+11. p length
+12. q
