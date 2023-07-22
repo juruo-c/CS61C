@@ -22,8 +22,13 @@ loop:
     addi t0 t0 4
     # Check if we are done
     # If not, loop
-    bge t2 t1 loop
+    bgt t2 t1 loop
 
+    # Call free
+    li a0 40
+    sub a0 t0 a0
+    jal free
+    
     # Exit the program
     li a0 0
     jal exit
